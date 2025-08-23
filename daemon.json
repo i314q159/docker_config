@@ -3,8 +3,12 @@
     "127.0.0.1:5000"
   ],
   "registry-mirrors": [
-    "https://docker.1panel.live",
     "https://docker.1ms.run",
+    "https://docker.1panel.live",
+    "https://docker.xuanyuan.me",
+    "https://docker.m.daocloud.io",
+    "https://docker.rainbond.io",
+    "https://proxy.1panel.live",
     "https://docker.xuanyuan.me"
   ]
 }
