@@ -1,0 +1,12 @@
+services:
+  registry:
+    image: docker.io/library/registry:latest
+    ports:
+      - 5000:5000
+    volumes:
+      - data:/var/lib/registry
+
+volumes:
+  data:
+    external: true
+    name: registry_data
