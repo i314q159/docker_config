@@ -1,4 +1,11 @@
 {
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
   "insecure-registries": [
     "127.0.0.1:5000"
   ],
@@ -9,6 +16,7 @@
     "https://docker.m.daocloud.io",
     "https://docker.rainbond.io",
     "https://proxy.1panel.live",
-    "https://docker.xuanyuan.me"
+    "https://docker.xuanyuan.me",
+    "https://proxy.pipers.cn"
   ]
 }
